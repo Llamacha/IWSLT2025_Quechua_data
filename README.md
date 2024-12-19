@@ -49,6 +49,7 @@ This secondary corpus contains the Spanish translations of the Huqariq corpus [(
 
 **Please Note**: Participants are not required to use this data but are free to use with the license below.
 
+## Citation 
 
 ```
 @inproceedings{zevallos2022huqariq,

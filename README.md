@@ -24,19 +24,6 @@ task.  The data can be easily downloaded directly fron here:  [Unconstrained QUE
 
 **Please Note**: Participants are not required to use this data but are free to use with the license below.
 
-<!--  
-## Additional audio data `with translations` for the `unconstrained` task - ADDITIONAL DATA 2
-
-Participants are not required to use any of this data.
-
-This secondary data set is currently in incubation stage and after further testing will be used in next year's challenge. We offer this secondary audio date `with translations` as additional data for the `unconstrained` task. We are highly interested in feedback about this data, please contact John E. Ortega (j.ortega [email symbol] northeastern.edu) and Rodolfo Zevallos (rodolfojoel.zevallos [email symbol] upf.edu) if you plan on using this data. 
-
-This secondary corpus contains the Spanish translations of the Huqariq corpus [(Zevallos et al.,2022)](https://arxiv.org/abs/2207.05498). It is comprised of about 3 hours of Quechua audio with their transcriptions and translations into Spanish. The data can be easily downloaded directly from here: [Unconstrained QUE-SPA Additonal Audio 2](https://github.com/Llamacha/quechua_spanish_speech_translation_corpus).
-
-**Please Note**: Participants are not required to use this data but are free to use with the license below.
-
--->
-
 ## Citation 
 
 ```
@@ -46,6 +33,30 @@ This secondary corpus contains the Spanish translations of the Huqariq corpus [(
   journal={ISI-NLP 2},
   pages={21},
   year={2018}
+}
+```
+
+
+ 
+## Additional audio data `with translations` for the `unconstrained` task - ADDITIONAL DATA 2
+
+
+We are also sharing a secondary dataset named que_spa_synthetic_translation, which contains a set of synthetic Spanish translations for Quechua audio. This dataset is intended as additional training data for the unconstrained task. While these translations are machine-generated, they can be valuable for experimenting with training strategies in the unconstrained setup. The dataset can be found in the que_spa_synthetic_translation folder, and participants are encouraged to explore its utility.
+
+We are highly interested in feedback about this data, please contact John E. Ortega (j.ortega [email symbol] northeastern.edu) and Rodolfo Zevallos (rodolfojoel.zevallos [email symbol] upf.edu) if you plan on using this data. 
+
+This secondary corpus contains the Spanish translations of the Huqariq corpus [(Zevallos et al.,2022)](https://arxiv.org/abs/2207.05498). It is comprised of about 8 hours of Quechua audio with their transcriptions and translations into Spanish.
+
+**Please Note**: Participants are not required to use this data but are free to use with the license below.
+
+
+```
+@inproceedings{zevallos2022huqariq,
+  title={Huqariq: A Multilingual Speech Corpus of Native Languages of Peru forSpeech Recognition},
+  author={Zevallos, Rodolfo and Camacho, Luis and Melgarejo, Nelsi},
+  booktitle={Proceedings of the Thirteenth Language Resources and Evaluation Conference},
+  pages={5029--5034},
+  year={2022}
 }
 ```
 

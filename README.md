@@ -1,6 +1,6 @@
-# IWSLT2024 - Low-resource Speech Translation Track: Quechua-Spanish Parallel Corpus
+# IWSLT2025 - Low-resource Speech Translation Track: Quechua-Spanish Parallel Corpus
 
-Main repository for the sharing of Quechua-Spanish Speech Translation data as part of the low-resource shared task at [IWSLT 2024](https://iwslt.org/2024/low-resource).
+Main repository for the sharing of Quechua-Spanish Speech Translation data as part of the low-resource shared task at [IWSLT 2025](https://iwslt.org/2024/low-resource).
 
 ## Parallel data for the `constrained` task
 

@@ -2,19 +2,8 @@
 
 Main repository for the sharing of Quechua-Spanish Speech Translation data as part of the low-resource shared task at [IWSLT 2025](https://iwslt.org/2025/low-resource).
 
-## Parallel data for the `constrained` task
 
-This corpus is a small extraction of the Siminchik corpus [(Cardenas_et_al.,2018)](http://lrec-conf.org/workshops/lrec2018/W14/pdf/book_of_proceedings.pdf#page=28), a Quechua-based corpus created from several radio audio recordings. The recordings have been transcribed and translated into Spanish. The total recording time for the `clean` speech data is 1 hour and 40 minutes. It can be found in the `que_spa_constrained` folder which contains three sub-folders: training, valid, and test. The test folder will be made visible after the submissions have been received.
-
-The raw text transcriptions are located in `que_spa_constrained/<split>/txt/<split>.<lang>`.
-
-True-cased Spanish target translations are found in `que_spa_constrained/<split>/txt/<split>.spa.tc`.
-
-True-casing was done with a [sacremoses](https://github.com/alvations/sacremoses) Truecaser model trained on the Spanish side of WMT13 EN-ES.
-
-
-
-## Additional audio data for the `unconstrained` task - ADDITIONAL DATA 1
+## Data for the `unconstrained` task
 
 In addition to the 1 hour, 40 minutes of Quechua audio data aligned with Spanish translations, we also provided
 participants with a corpus of 48 hours of fully transcribed Quechua audio `without` translations for the `unconstrained`
@@ -37,8 +26,7 @@ task.  The data can be easily downloaded directly fron here:  [Unconstrained QUE
 ```
 
 
- 
-## Additional audio data `with translations` for the `unconstrained` task - ADDITIONAL DATA 2
+## Additional data `with translations` for the `unconstrained` task
 
 
 We are also sharing a secondary dataset named que_spa_synthetic_translation, which contains a set of synthetic Spanish translations for Quechua audio. This dataset is intended as additional training data for the unconstrained task. While these translations are machine-generated, they can be valuable for experimenting with training strategies in the unconstrained setup. The dataset can be found in the que_spa_synthetic_translation folder, and participants are encouraged to explore its utility.

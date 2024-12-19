@@ -29,11 +29,9 @@ task.  The data can be easily downloaded directly fron here:  [Unconstrained QUE
 ## Additional data `with translations` for the `unconstrained` task
 
 
-We are also sharing a secondary dataset named `que_spa_synthetic_translation`, which contains a set of synthetic Spanish translations for Quechua audio. This dataset is intended as additional training data for the unconstrained task. While these translations are machine-generated, they can be valuable for experimenting with training strategies in the unconstrained setup. The dataset can be found in the `que_spa_synthetic_translation` folder, and participants are encouraged to explore its utility.
+We are also sharing a secondary dataset named `que_spa_synthetic_translation`, which contains a set of synthetic Quechua-Spanish translations. This dataset is intended as additional training data for the unconstrained task. While these translations are machine-generated, they can be valuable for experimenting with training strategies in the unconstrained setup. The dataset can be found in the `que_spa_synthetic_translation` folder, and participants are encouraged to explore its utility. This secondary corpus contains the Spanish translations of the Huqariq corpus [(Zevallos et al.,2022)](https://arxiv.org/abs/2207.05498). It is comprised of about 8 hours of Quechua audio with their transcriptions and translations into Spanish.
 
 We are highly interested in feedback about this data, please contact John E. Ortega (j.ortega [email symbol] northeastern.edu) and Rodolfo Zevallos (rodolfojoel.zevallos [email symbol] upf.edu) if you plan on using this data. 
-
-This secondary corpus contains the Spanish translations of the Huqariq corpus [(Zevallos et al.,2022)](https://arxiv.org/abs/2207.05498). It is comprised of about 8 hours of Quechua audio with their transcriptions and translations into Spanish.
 
 **Please Note**: Participants are not required to use this data but are free to use with the license below.
 
@@ -50,9 +48,9 @@ This secondary corpus contains the Spanish translations of the Huqariq corpus [(
 ```
 
 
-## Additional Parallel Machine Translation Text data for the `constrained` task
+## Additional Parallel Machine Translation Text data for the `unconstrained` task
 
-As part of the constrained task, we allow the use of Machine Transaltion parallel text from previous work.
+As part of the unconstrained task, we allow the use of Machine Transaltion parallel text from previous work.
 Participants are also not required to use this data.
 
 The data is found in this repository in the folder: `additional_mt_text`.

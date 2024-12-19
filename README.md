@@ -29,7 +29,7 @@ task.  The data can be easily downloaded directly fron here:  [Unconstrained QUE
 ## Additional data `with translations` for the `unconstrained` task
 
 
-We are also sharing a secondary dataset named que_spa_synthetic_translation, which contains a set of synthetic Spanish translations for Quechua audio. This dataset is intended as additional training data for the unconstrained task. While these translations are machine-generated, they can be valuable for experimenting with training strategies in the unconstrained setup. The dataset can be found in the que_spa_synthetic_translation folder, and participants are encouraged to explore its utility.
+We are also sharing a secondary dataset named `que_spa_synthetic_translation`, which contains a set of synthetic Spanish translations for Quechua audio. This dataset is intended as additional training data for the unconstrained task. While these translations are machine-generated, they can be valuable for experimenting with training strategies in the unconstrained setup. The dataset can be found in the `que_spa_synthetic_translation` folder, and participants are encouraged to explore its utility.
 
 We are highly interested in feedback about this data, please contact John E. Ortega (j.ortega [email symbol] northeastern.edu) and Rodolfo Zevallos (rodolfojoel.zevallos [email symbol] upf.edu) if you plan on using this data. 
 

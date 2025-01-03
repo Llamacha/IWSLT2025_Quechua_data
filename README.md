@@ -80,4 +80,4 @@ All audio recordings are property of Siminchikkunarayku and [Llamacha](https://l
 
 ## Acknowledgements
 
-Part of this work has been funded by AmericasNLP-2022, John E. Ortega, and Llamacha. Special thanks to Eva Mühlbauer, Maximilian Torres and Anku Kichka their support.
+Part of this work has been funded by AmericasNLP-2022, [John E. Ortega] (https://johneortega.github.io), and Llamacha. Special thanks to Eva Mühlbauer, Maximilian Torres and Anku Kichka their support.

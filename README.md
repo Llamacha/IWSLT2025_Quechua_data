@@ -74,10 +74,11 @@ Please make sure to cite the work below if you use this data.
 ```
 
 ## License
+
 All audio recordings are property of Siminchikkunarayku and [Llamacha](https://llamacha.pe).
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.
 
 ## Acknowledgements
 
-Part of this work has been funded by AmericasNLP-2022, [John E. Ortega] (https://johneortega.github.io), and Llamacha. Special thanks to Eva Mühlbauer, Maximilian Torres and Anku Kichka their support.
+Part of this work has been funded by AmericasNLP-2022, [John E. Ortega](https://johneortega.github.io), and Llamacha. Special thanks to Eva Mühlbauer, Maximilian Torres and Anku Kichka their support.

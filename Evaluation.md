@@ -1,11 +1,10 @@
-This repo contains the evaluation scripts needed to replicate the IWSLT 2024 speech translation tasks for Quechua to Spanish.
 
-# IWSLT 2024 Dialectal and Low-Resource Speech Translation Task 
+# IWSLT 2025 Low-Resource Speech Translation Task 
 
 This is a Python script for evaluating the performance of speech translation systems using the BLEU and chrF metrics. The script takes as input a reference text file and a folder containing the hypothesis text files. It processes each hypothesis file and outputs the results in a tab-separated values (TSV) file.
 
 
-<a href="https://iwslt.org/2024/low-resource">IWSLT 2024 task homepage</a>
+<a href="https://iwslt.org/2025/low-resource">IWSLT 2025 task homepage</a>
 
 
 ## Requirements
@@ -22,8 +21,6 @@ This is a Python script for evaluating the performance of speech translation sys
 3. Install the dependencies
 
 ```
-git clone https://github.com/Llamacha/iwslt24_que_esp
-cd iwslt24_que_esp
 pip install -r requirements.txt
 ```
 

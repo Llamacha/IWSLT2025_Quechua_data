@@ -13,6 +13,15 @@ task.  The data can be easily downloaded directly fron here:  [Unconstrained QUE
 
 **Please Note**: Participants are not required to use this data but are free to use with the license below.
 
+
+## Evaluation
+
+You can evaluate your model using two widely adopted translation metrics: BLEU and ChrF++.
+
+Follow this link [link](Evaluation.md) for detailed instructions on how to use the evaluation script.
+
+
+
 ## Citation 
 
 ```

@@ -13,6 +13,7 @@ task.  The data can be easily downloaded directly fron here:  [Unconstrained QUE
 
 **Please Note**: Participants are not required to use this data but are free to use with the license below.
 
+<strong> (NEW April 10) The test set can be accessed [here](https://github.com/Llamacha/IWSLT2025_Quechua_data/tree/main/que_spa_unconstrained/test).</strong>
 
 ## Evaluation
 

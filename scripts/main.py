@@ -4,6 +4,11 @@ import pandas as pd
 from bleu_scorer import read_hypotheses_file, read_references_file, calculate_bleu
 from chrF_scorer import computeChrF
 
+import subprocess
+
+
+
+
 def parse_args():
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(description="Evaluate Speech Translation")
@@ -56,22 +61,28 @@ def main():
             continue
 
         # BLEU
-        hypotheses = read_hypotheses_file(os.path.join(args.phyp, file))
-        references = read_references_file(args.ref)
-        bleu_score = calculate_bleu(hypotheses, references)
-        bleu_score = str(bleu_score)
-        print(bleu_score)
-        bleu_result = float(bleu_score[6:11])
-        print(bleu_result)
-        if bleu_result < 200: 
+        hypotheses = os.path.join(args.phyp, file)
+        #references = read_references_file(args.ref)
+        references = args.ref
+        # Define el comando como una lista de argumentos
+        command ="sacrebleu "+references+" -i "+ hypotheses +" -m bleu -lc"
+
+        # Ejecuta el comando y captura la salida
+        result = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        # La salida estará en result.stdout
+        bleu_score = result.stdout
+        #bleu_score = calculate_bleu(hypotheses, references)
+        #bleu_score = str(bleu_score)
+        #print(bleu_score)
+        #bleu_result = float(bleu_score[6:11])
+        #print(bleu_result)
+        #if bleu_result < 200: 
             # chrF
-            with open(args.ref, "r") as ref_file:
-                with open(os.path.join(args.phyp, file), "r") as hyp_file:
-                    sentence_level_scores = None
-                    totalF, averageTotalF, totalPrec, totalRec = computeChrF(ref_file, hyp_file, 2, 6, 2.0, sentence_level_scores)
-            chrf_score = f"{totalF * 100:.2f} (nc = 6 nw = 2 beta = 2.0)"
-        else:
-            chrf_score = False
+        with open(args.ref, "r") as ref_file:
+            with open(os.path.join(args.phyp, file), "r") as hyp_file:
+                sentence_level_scores = None
+                totalF, averageTotalF, totalPrec, totalRec = computeChrF(ref_file, hyp_file, 2, 6, 2.0, sentence_level_scores)
+        chrf_score = f"{totalF * 100:.2f} (nc = 6 nw = 2 beta = 2.0)"
         # store results
         parts = file.split(".")
         team.append(parts[0])
